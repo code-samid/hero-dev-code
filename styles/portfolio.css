@@ -52,6 +52,15 @@
     text-align: center;
 }
 
+.container {
+    width: 71%;
+    max-width: 1140px;
+     /*border: 1px solid red;*/
+     margin: 0px auto;
+}
+
+
+
 /* main style */
 header{
     background-color: #FFF8F3;
@@ -64,10 +73,7 @@ header{
 
 nav {
  
-  width: 71%;
-  max-width: 1140px;
-  /*border: 1px solid red;*/
-  margin: 0px auto;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -143,9 +149,7 @@ nav .menu a {
 }
 
 #about .about-container {
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
+    
     text-align: center;
     background-color: #FFF8F3;
     padding: 131px 156px;
